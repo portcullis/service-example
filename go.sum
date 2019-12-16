@@ -1,3 +1,7 @@
+github.com/portcullis/application v0.0.0-20191216211144-a7c3124d0a8e h1:ov9iatPWjI0CbmP32zMwwNLgdoVaiwBDVGrgjyvXi4U=
+github.com/portcullis/application v0.0.0-20191216211144-a7c3124d0a8e/go.mod h1:P9rMvNausSNigP1wJXlcJqPhTs2wNWDtk/8HfXwcIJc=
+github.com/portcullis/application v0.0.0-20191216211626-a70f0d307f3f h1:r0DuTRRf/EBCwCGcSDNLzteBrYesI0GUFiZHPoDmToQ=
+github.com/portcullis/application v0.0.0-20191216211626-a70f0d307f3f/go.mod h1:P9rMvNausSNigP1wJXlcJqPhTs2wNWDtk/8HfXwcIJc=
 github.com/portcullis/logging v0.0.0-20191216195124-dbd89d13ff83 h1:ui7X88ZMyn9/GzXUHGPLdT/5K9t5kHZEwjH2rN5tSEM=
 github.com/portcullis/logging v0.0.0-20191216195124-dbd89d13ff83/go.mod h1:jZS5zWlpM09FJDDi4ZeBTEg8fzBxFQX8IDHcziDWckY=
 github.com/portcullis/module v0.0.0-20191216195407-4a3750be7c0f h1:Jm+g8UDKw6O50Jd2IxtXb/ZgUhRYxIB/vwbB18Ozwok=
