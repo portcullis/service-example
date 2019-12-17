@@ -9,7 +9,7 @@ replace github.com/portcullis/module => ../module
 replace github.com/portcullis/logging => ../logging
 
 require (
-	github.com/portcullis/application v0.0.0-20191216211626-a70f0d307f3f
-	github.com/portcullis/logging v0.0.0-20191216195124-dbd89d13ff83
-	github.com/portcullis/module v0.0.0-20191216195407-4a3750be7c0f
+	github.com/portcullis/application v0.0.0-20191217055053-b424562131ad
+	github.com/portcullis/logging v0.0.0-20191217055113-b398c1c4c962
+	github.com/portcullis/module v0.0.0-20191217055137-df89d896d642
 )
