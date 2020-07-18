@@ -21,7 +21,7 @@ func (m *moduledumper) Start(ctx context.Context) error {
 	}
 
 	controller.Range(func(name string, m module.Module) bool {
-		logging.Info("Module %q is %T", name, m)
+		logging.Debug("Module %q is %T", name, m)
 		return true
 	})
 

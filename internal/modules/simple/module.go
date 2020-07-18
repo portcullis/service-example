@@ -16,26 +16,26 @@ func New() module.Module {
 }
 
 func (s *simple) Initialize(ctx context.Context) (context.Context, error) {
-	logging.Info("Initialize")
+	logging.Debug("Initialize")
 	return ctx, nil
 }
 
 func (s *simple) PreStart(ctx context.Context) error {
-	logging.Info("PreStart")
+	logging.Debug("PreStart")
 	return nil
 }
 
 func (s *simple) Start(ctx context.Context) error {
-	logging.Info("Start")
+	logging.Debug("Start")
 	return nil
 }
 
 func (s *simple) PostStart(ctx context.Context) error {
-	logging.Info("PostStart")
+	logging.Debug("PostStart")
 	return nil
 }
 
 func (s *simple) Stop(ctx context.Context) error {
-	logging.Info("Stop")
+	logging.Debug("Stop")
 	return nil
 }

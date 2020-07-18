@@ -3,7 +3,8 @@ module github.com/portcullis/service-example
 go 1.14
 
 require (
-	github.com/portcullis/application v0.0.0-20191218032840-259e89ebbe44
-	github.com/portcullis/logging v0.0.0-20200718061909-5ec7d938f1ce
-	github.com/portcullis/module v0.0.0-20191218033331-1a2c5e287cbb
+	github.com/portcullis/application v0.0.0-20200718180734-6cb655dce824
+	github.com/portcullis/config v0.0.0-20200718224424-ef05468df8d5
+	github.com/portcullis/logging v0.0.0-20200718224534-0e694ad7477a
+	github.com/portcullis/module v0.0.0-20200718180813-ef47b4a94c31
 )
