@@ -1,12 +1,14 @@
 github.com/portcullis/application v0.0.0-20200718180734-6cb655dce824 h1:K+p6nJfd7y+5djJrWsDKHKxIAv+iPJ8VVK6FxvGebGQ=
 github.com/portcullis/application v0.0.0-20200718180734-6cb655dce824/go.mod h1:ql6WkPLWE7GZUoYltO+P+eqSg3/6XZE5uzJ5I5gFphQ=
+github.com/portcullis/application v0.0.0-20200919044530-9c92edb47552 h1:FOpzf3xZ/qstXzjpU3FfbLFTYXkrarVdo7MUY/h9gS0=
+github.com/portcullis/application v0.0.0-20200919044530-9c92edb47552/go.mod h1:cVqTKTF4k9cVZ3SS6/cWpc8qE4pcj46CffnvU/aui2A=
 github.com/portcullis/config v0.0.0-20200718224424-ef05468df8d5 h1:LiyOtPl3aUtXIiIxMtWE6iBUewdGRzT4RsCeLgytjpY=
 github.com/portcullis/config v0.0.0-20200718224424-ef05468df8d5/go.mod h1:9YmLD70up21x+xARFRm8AZf82MCOkLYA8BGMc8c6mPY=
 github.com/portcullis/logging v0.0.0-20191216195124-dbd89d13ff83/go.mod h1:jZS5zWlpM09FJDDi4ZeBTEg8fzBxFQX8IDHcziDWckY=
-github.com/portcullis/logging v0.0.0-20200718184412-ca8565811d9c h1:3pee9XDjUvlafcvtiRpT4bw/LsMlp9rbZQpXFdI1FHI=
-github.com/portcullis/logging v0.0.0-20200718184412-ca8565811d9c/go.mod h1:jZS5zWlpM09FJDDi4ZeBTEg8fzBxFQX8IDHcziDWckY=
 github.com/portcullis/logging v0.0.0-20200718224534-0e694ad7477a h1:YCP8ajEWwxJ2Foe+F35worV0GTZsEGd0jGFHYcGcrog=
 github.com/portcullis/logging v0.0.0-20200718224534-0e694ad7477a/go.mod h1:jZS5zWlpM09FJDDi4ZeBTEg8fzBxFQX8IDHcziDWckY=
 github.com/portcullis/module v0.0.0-20191217055137-df89d896d642/go.mod h1:mCVi1IhO4xuso8FHAmwSxmJv7qqiVsaWV7l85vQ5cGY=
 github.com/portcullis/module v0.0.0-20200718180813-ef47b4a94c31 h1:SuW7ECEDDEB0GNxR2T2cwMR78NUcahgF9ve+JP+dFS0=
 github.com/portcullis/module v0.0.0-20200718180813-ef47b4a94c31/go.mod h1:mCVi1IhO4xuso8FHAmwSxmJv7qqiVsaWV7l85vQ5cGY=
+github.com/portcullis/module v0.0.0-20200919045418-3f460d896606 h1:US4QEG0cTAiinMyCskHn4bWVxomum4XUhWK/jjE7/yQ=
+github.com/portcullis/module v0.0.0-20200919045418-3f460d896606/go.mod h1:mCVi1IhO4xuso8FHAmwSxmJv7qqiVsaWV7l85vQ5cGY=
