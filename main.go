@@ -11,9 +11,11 @@ import (
 
 func main() {
 	if err := application.Bootstrap("sample", "0.0.0",
-		application.RunModule("Dumper", moduledump.New()),
-		application.RunModule("Failer", failer.New()),
-		application.RunModule("Simple", simple.New()),
+		application.WithConfigFile("./application.hcl"),
+
+		application.WithModule("Dumper", moduledump.New()),
+		application.WithModule("Failer", failer.New()),
+		application.WithModule("Simple", simple.New()),
 	).Run(context.Background()); err != nil {
 		panic(err)
 	}
