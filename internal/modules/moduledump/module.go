@@ -3,24 +3,24 @@ package moduledump
 import (
 	"context"
 
+	"github.com/portcullis/application"
 	"github.com/portcullis/logging"
-	"github.com/portcullis/module"
 )
 
-type moduledumper int
+type module int
 
 // New returns information about the loaded modules
-func New() module.Module {
-	return new(moduledumper)
+func New() module {
+	return module(0)
 }
 
-func (m *moduledumper) Start(ctx context.Context) error {
-	controller := module.FromContext(ctx)
-	if controller == nil {
+func (m module) Start(ctx context.Context) error {
+	app := application.FromContext(ctx)
+	if app == nil {
 		return nil
 	}
 
-	controller.Range(func(name string, m module.Module) bool {
+	app.Controller.Range(func(name string, m application.Module) bool {
 		logging.Debug("Module %q is %T", name, m)
 		return true
 	})
@@ -28,6 +28,6 @@ func (m *moduledumper) Start(ctx context.Context) error {
 	return nil
 }
 
-func (m *moduledumper) Stop(ctx context.Context) error {
+func (m module) Stop(ctx context.Context) error {
 	return nil
 }

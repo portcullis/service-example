@@ -11,9 +11,9 @@ import (
 
 func main() {
 	if err := application.Bootstrap("sample", "0.0.0",
-		application.Module("Dumper", moduledump.New()),
-		application.Module("Failer", failer.New()),
-		application.Module("Simple", simple.New()),
+		application.RunModule("Dumper", moduledump.New()),
+		application.RunModule("Failer", failer.New()),
+		application.RunModule("Simple", simple.New()),
 	).Run(context.Background()); err != nil {
 		panic(err)
 	}
