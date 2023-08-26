@@ -2,8 +2,7 @@ package simple
 
 import (
 	"context"
-
-	"github.com/portcullis/logging"
+	"log/slog"
 )
 
 type module struct {
@@ -18,37 +17,37 @@ func New() *module {
 }
 
 func (m *module) Config() (interface{}, error) {
-	logging.Debug("Config")
+	slog.Debug("Config")
 	return &m.cfg, nil
 }
 
 func (m *module) ConfigSet(v interface{}) error {
-	logging.Debug("ConfigSet: %+v", v)
+	slog.Debug("ConfigSet", "val", v)
 	return nil
 }
 
 func (m *module) Initialize(ctx context.Context) (context.Context, error) {
-	logging.Debug("Initialize")
+	slog.Debug("Initialize")
 	return ctx, nil
 }
 
 func (m *module) PreStart(ctx context.Context) error {
-	logging.Debug("PreStart")
+	slog.Debug("PreStart")
 	return nil
 }
 
 func (m *module) Start(ctx context.Context) error {
-	logging.Debug("Start")
-	logging.Info("Hello, %q!", m.cfg.Hello)
+	slog.Debug("Start")
+	slog.Info("Hello", "name", m.cfg.Hello)
 	return nil
 }
 
 func (m *module) PostStart(ctx context.Context) error {
-	logging.Debug("PostStart")
+	slog.Debug("PostStart")
 	return nil
 }
 
 func (m *module) Stop(ctx context.Context) error {
-	logging.Debug("Stop")
+	slog.Debug("Stop")
 	return nil
 }

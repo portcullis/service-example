@@ -2,9 +2,10 @@ package moduledump
 
 import (
 	"context"
+	"fmt"
+	"log/slog"
 
 	"github.com/portcullis/application"
-	"github.com/portcullis/logging"
 )
 
 type module int
@@ -21,7 +22,7 @@ func (m module) Start(ctx context.Context) error {
 	}
 
 	app.Controller.Range(func(name string, m application.Module) bool {
-		logging.Debug("Module %q is %T", name, m)
+		slog.Debug(fmt.Sprintf("Module %q is %T", name, m))
 		return true
 	})
 
